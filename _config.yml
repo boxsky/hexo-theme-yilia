@@ -95,3 +95,13 @@ changyan_conf: false
 disqus:
   shortname: 'fanhaobai'
   api: '//api.fanhaobai.com'
+
+#5、gitalk评论
+gitalk:
+  enable:  true
+  githubID:  boxsky
+  repo:  'blog'
+  ClientID:  '309e3252833004498c03'
+  ClientSecret:  'cabf27913929e161ff8d8c7175385d41aaf4b87b'
+  adminUser:  boxsky
+  distractionFreeMode: true

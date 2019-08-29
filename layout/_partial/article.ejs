@@ -150,6 +150,14 @@
   <% } %>
 <% } %>
 
+<% if(theme.gitalk.enable){ %>
+  <%- partial('post/gitalk', {
+      key: post.slug,
+      title: post.title,
+      url: config.url+url_for(post.path)
+    }) %>
+  <% } %>
+
 <% if (!index){ %>
 <script>
   (function () {
