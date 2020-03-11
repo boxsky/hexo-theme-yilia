@@ -1,4 +1,4 @@
-# Header
+#Header
 
 menu:
   主页: '/'
@@ -67,7 +67,7 @@ toc_empty_wording: '目录，不存在的…'
 top: true
 
 # Miscellaneous
-baidu_analytics: ''
+baidu_analytics: '3987251a4d0358c8de057e578255f74d'
 google_analytics: ''
 favicon: '/favicon.ico'
 
@@ -93,5 +93,64 @@ changyan_conf: false
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus:
-  shortname: 'fanhaobai'
-  api: '//api.fanhaobai.com'
+  enable:  false
+  shortname: 'zhaobo'
+  api: '//api.zhaobo.top'
+
+#5、gitalk评论
+gitalk:
+  enable:  true
+  githubID:  boxsky
+  repo:  'blog'
+  ClientID:  '309e3252833004498c03'
+  ClientSecret:  'cabf27913929e161ff8d8c7175385d41aaf4b87b'
+  adminUser:  boxsky
+  distractionFreeMode: true
+  labels: "['Gitalk']"
+
+# 样式定制 - 一般不需要修改，除非有很强的定制欲望…
+style:
+  # 头像上面的背景颜色
+  header: '#5788AA'
+  # 右滑板块背景
+  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+
+# slider的设置
+slider:
+  # 是否默认展开tags板块
+  showTags: false
+
+# 智能菜单
+# 如不需要，将该对应项置为false
+# 比如
+#smart_menu:
+#  friends: false
+smart_menu:
+  innerArchive: '搜索'
+  friends: '友链'
+  #aboutme: '关于我'
+
+# dns预获取
+dns_prefetch:
+  0: 'www.zhaobo.top'
+  1: 'img.zhaobo.top'
+  8: 'disqus.fanhaobai.com'
+  9: 'cdn.bootcss.com'
+  10: 'c.disquscdn.com'
+  11: 'assets-cdn.github.com'
+  12: 'cn.gravatar.com'
+  13: 'uploads.disquscdn.com'
+
+friends:
+  夕尧之遥: 'http://varobj.com'
+  白锦: 'http://blog.jinwork.vip'
+  Forget: 'https://blog.jiazechen.com'
+  樊浩柏: 'https://fanhaobai.com'
+  白俊遥: 'https://baijunyao.com'
+  仙士可: 'http://php20.cn'
+  风雪之隅: 'http://www.laruence.com'
+  Rango: 'http://rango.swoole.com'
+  信海龙: 'http://www.bo56.com'
+  Hawstein's Blog: 'http://hawstein.com/'
+
+#aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
